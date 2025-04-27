@@ -1,0 +1,14 @@
+d:\Учеба\C#\cs-lab-work\bin\Debug\net9.0\cs-lab-work.exe
+D:\Учеба\C#\cs-lab-work\bin\Debug\net9.0\cs-lab-work.deps.json
+D:\Учеба\C#\cs-lab-work\bin\Debug\net9.0\cs-lab-work.runtimeconfig.json
+d:\Учеба\C#\cs-lab-work\bin\Debug\net9.0\cs-lab-work.dll
+d:\Учеба\C#\cs-lab-work\bin\Debug\net9.0\cs-lab-work.pdb
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.GeneratedMSBuildEditorConfig.editorconfig
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.AssemblyInfoInputs.cache
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.AssemblyInfo.cs
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.csproj.CoreCompileInputs.cache
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.dll
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\refint\cs-lab-work.dll
+d:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.pdb
+D:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\cs-lab-work.genruntimeconfig.cache
+D:\Учеба\C#\cs-lab-work\obj\Debug\net9.0\ref\cs-lab-work.dll
