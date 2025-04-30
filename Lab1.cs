@@ -10,6 +10,10 @@ namespace lab1_app
         public void Run() {
             Console.WriteLine("Задание №1 Одномерный массив целых чисел.");
             int arraySize = ReadIntFromConsole("Введите размер массива:");
+            if (arraySize <= 0) {
+                Console.WriteLine("Некорректный размер массива!");
+                return;
+            }
             int min = ReadIntFromConsole(MIN_MESSAGE);
             int max = ReadIntFromConsole(MAX_MESSAGE);
             if(min > max) {
@@ -104,6 +108,10 @@ namespace lab1_app
             Console.WriteLine("Задание №2 Квадратный массив.");
             
             int arraySize = ReadIntFromConsole("Введите размер квадратного массива:");
+            if (arraySize <= 0) {
+                Console.WriteLine("Некорректный размер массива!");
+                return;
+            }
             int min = ReadIntFromConsole(MIN_MESSAGE);
             int max = ReadIntFromConsole(MAX_MESSAGE);
             if(min > max) {
@@ -195,6 +203,10 @@ namespace lab1_app
         public void Run() {
             Console.WriteLine("Задание №3 Зубчатый массив");
             int arraySize = ReadIntFromConsole("Введите размер зубчатого массива:");
+            if (arraySize <= 0) {
+                Console.WriteLine("Некорректный размер массива!");
+                return;
+            }
             int min = ReadIntFromConsole(MIN_MESSAGE);
             int max = ReadIntFromConsole(MAX_MESSAGE);
             if(min > max) {

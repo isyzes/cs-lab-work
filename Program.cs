@@ -10,5 +10,7 @@ public class Program {
 
         Lab1Task3 lab1Task3 = new Lab1Task3();
         lab1Task3.Run();
+
+        Console.WriteLine(Lab1Task4.Run(1, 2, 3));
     }
 }
