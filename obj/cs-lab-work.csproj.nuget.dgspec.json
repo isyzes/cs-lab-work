@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\C#\\cs-lab-work\\cs-lab-work.csproj": {}
+    "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\C#\\cs-lab-work\\cs-lab-work.csproj": {
+    "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\C#\\cs-lab-work\\cs-lab-work.csproj",
+        "projectUniqueName": "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj",
         "projectName": "cs-lab-work",
-        "projectPath": "D:\\Учеба\\C#\\cs-lab-work\\cs-lab-work.csproj",
+        "projectPath": "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\C#\\cs-lab-work\\obj\\",
+        "outputPath": "D:\\dev\\C#\\cs-lab-work\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
