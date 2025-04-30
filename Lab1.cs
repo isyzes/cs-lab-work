@@ -194,6 +194,7 @@ namespace lab1_app
         }
 
     }
+    
     public class Lab1Task3 {
         private readonly Random random = new Random();
         private static string MIN_MESSAGE = "Введите минимальное значение:";
