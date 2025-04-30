@@ -1,4 +1,4 @@
-using lab1_app;
+using lab2_app;
 
 public class Program {
      public static void Main(string[] args) {
