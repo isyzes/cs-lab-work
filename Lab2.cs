@@ -73,7 +73,7 @@ namespace lab2_app
             
             string result = Regex.Replace(message, pattern, string.Empty);
             
-            result = Regex.Replace(result, @"\s{2,}", " ").Trim();
+            // result = Regex.Replace(result, @"\s{2,}", " ").Trim();
             
             Console.WriteLine($"Результат: {result}");
         }
@@ -88,7 +88,7 @@ namespace lab2_app
             if (!DateTime.TryParse(dateTimeString, out currentDate))
             {
                 Console.WriteLine("Некорректный формат даты и времени");
-                return -100005;
+                return -1;
             }
 
             DateTime nextNewYear = new DateTime(currentDate.Year, 1, 1).AddYears(1);
