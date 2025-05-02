@@ -72,9 +72,7 @@ namespace lab2_app
             string pattern = $@"\b\w*{escapedChar}\b";
             
             string result = Regex.Replace(message, pattern, string.Empty);
-            
-            // result = Regex.Replace(result, @"\s{2,}", " ").Trim();
-            
+                        
             Console.WriteLine($"Результат: {result}");
         }
     }
