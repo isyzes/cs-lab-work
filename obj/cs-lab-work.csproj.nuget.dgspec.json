@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj": {}
+    "/opt/learning/cs-lab-work/cs-lab-work.csproj": {}
   },
   "projects": {
-    "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj": {
+    "/opt/learning/cs-lab-work/cs-lab-work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj",
+        "projectUniqueName": "/opt/learning/cs-lab-work/cs-lab-work.csproj",
         "projectName": "cs-lab-work",
-        "projectPath": "D:\\dev\\C#\\cs-lab-work\\cs-lab-work.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\C#\\cs-lab-work\\obj\\",
+        "projectPath": "/opt/learning/cs-lab-work/cs-lab-work.csproj",
+        "packagesPath": "/home/gpuser/.nuget/packages/",
+        "outputPath": "/opt/learning/cs-lab-work/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/gpuser/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
