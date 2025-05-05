@@ -1,39 +1,36 @@
-using lab3_app;
+using cs_lab_work.lab4;
 
 public class Program {
      public static void Main(string[] args) {
-        Car car1 = new();
-        Car car2 = new("Audi", "A4");
-        Car car3 = new("Ferrari", "F8", 80, 50, 320, 15, [2.5, 2.5, 2.5, 2.5]);
+        Engine v8Engine = new Engine("V8 Turbo", 450);
+        Car bmw = new Car("BMW", "M5", v8Engine);
+        Car audi = new Car("Audi", "R8", v8Engine);
+        Car car = new Car();
 
-        Console.WriteLine(car1);
+        Garage myGarage = new Garage();
+        myGarage.AddCar(bmw);
+        myGarage.AddCar(audi);
+        myGarage.AddCar(car);
+        myGarage.ShowCars();
+
+        Garage myGarage2 = new Garage();
+        myGarage2.AddCar(bmw);
+        myGarage2.AddCar(audi);
+        myGarage2.AddCar(car);
+        myGarage2.ShowCars();
+
+        Driver driver = new Driver("Дмитрий");
+        driver.DriveCar(bmw);
+        driver.ParkCar(bmw);
+
         Console.WriteLine();
-        Console.WriteLine(car2);
-        Console.WriteLine();
-        Console.WriteLine(car3);
-        Console.WriteLine();
-
-        Console.WriteLine($"Максимальный пробег на оставшемся топливе для {car1.Brand} {car1.Model}: {car1.ComputeRemainingDistance()}");
-        Console.WriteLine($"Колесо у автомобиля {car2.Brand} {car2.Model} пробито: {car2.HasFlatTire()}");
-
-        Console.WriteLine($"{car3.Brand} {car3.Model} быстрее чем {car2.Brand} {car2.Model}: {car3.IsFasterThan(car2)}");
-
-        Car fasterCar = Car.FasterCar(car1, car2, car3);
-        Console.WriteLine();
-        Console.WriteLine("Самый быстрый автомобиль");
-        Console.WriteLine(fasterCar);
-
-        Car otherCar = car1;
-        otherCar.Brand = "Prototype";
-        otherCar.Model = "ZS.12";
-        otherCar.TankVolume = 400;
-        otherCar.FuelAmount = 5000;
-        otherCar.CurrentSpeed = 500;
-        otherCar.FuelConsumption = 1;
-        otherCar.TirePressures = [5.5, 5.5, 5.5, 5.5];
         
+        driver.DriveCar(audi);
+        driver.ParkCar(audi);
+
         Console.WriteLine();
-        Console.WriteLine("Объект car1:");
-        Console.WriteLine(car1);
+        
+        driver.DriveCar(car);
+        driver.ParkCar(car);
     }
 }
