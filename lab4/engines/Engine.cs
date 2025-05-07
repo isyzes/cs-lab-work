@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace cs_lab_work.lab4
 {
-    public class Engine
+    public abstract class Engine
     {
         private string model;
         private double power;

@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace cs_lab_work.lab4
 {
-    public class Car
+    public abstract class Car
     {
         private string brand;
         private string model;
-        private Engine engine; // композиция
+        protected Engine engine; // композиция
 
         public Car()
         {
@@ -33,15 +33,21 @@ namespace cs_lab_work.lab4
         public string Brand { get => brand; set => brand = value; }
         public string Model { get => model; set => model = value; }
 
+        public abstract void AddEngine(Engine engine);
+
+        public virtual void DisplayInfo() 
+        {
+            Console.WriteLine($"Автомобиль: {brand} {model}");
+        }
+
         public void Drive()
         {
             if (engine != null) {
-                Console.WriteLine($"{Brand} {Model} поехал!");
                 engine.Start();
+                Console.WriteLine($"{Brand} {Model} поехал!");
             } else {
                 Console.WriteLine($"У {Brand} {Model} нету двигателя!");
             }
-            
         }
 
         public void Park()
