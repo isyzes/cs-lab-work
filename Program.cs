@@ -5,7 +5,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Runner.RunLab5();
+        Runner.RunLab5Task2();
     }
 
     private static void RunLab4()
