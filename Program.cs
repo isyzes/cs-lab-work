@@ -1,7 +1,15 @@
 using cs_lab_work.lab4;
+using cs_lab_work.lab5;
 
-public class Program {
-     public static void Main(string[] args) {
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Runner.RunLab5();
+    }
+
+    private static void RunLab4()
+    {
         Engine v8Engine = new ElectricEngine("V8 Turbo", 450);
         Car bmw = new ElectricCar("BMW", "M5");
         bmw.AddEngine(v8Engine);
@@ -37,13 +45,14 @@ public class Program {
         driver.DriveCar(bmw);
         driver.ParkCar(bmw);
         Console.WriteLine("---------------------------");
-        
+
         driver.DriveCar(audi);
         driver.ParkCar(audi);
         Console.WriteLine("---------------------------");
-        
+
         driver.DriveCar(car);
         driver.ParkCar(car);
         Console.WriteLine("---------------------------");
+        
     }
 }
