@@ -1,12 +1,13 @@
 using cs_lab_work.lab4;
 using cs_lab_work.lab5;
 using cs_lab_work.lab6;
+using DelegatesAndEventsDemo;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        Lab6.Run();
+        ProgramLab7.Run();
     }
 
     private static void RunLab4()
