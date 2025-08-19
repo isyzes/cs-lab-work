@@ -1,11 +1,12 @@
 using cs_lab_work.lab4;
 using cs_lab_work.lab5;
+using cs_lab_work.lab6;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        Runner.RunLab5Task2();
+        Lab6.Run();
     }
 
     private static void RunLab4()
