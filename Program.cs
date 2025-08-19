@@ -1,13 +1,14 @@
 using cs_lab_work.lab4;
 using cs_lab_work.lab5;
 using cs_lab_work.lab6;
+using cs_lab_work.lab8;
 using DelegatesAndEventsDemo;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        ProgramLab7.Run();
+        InterfaceCollisionDemo.Run();
     }
 
     private static void RunLab4()
